@@ -77,7 +77,7 @@ function BookSession() {
             <div className="grid md:grid-cols-4 gap-4 mb-12">
               {[
                 { icon: Calendar, title: "Flexible", desc: "Your schedule" },
-                { icon: Users, title: "Expert", desc: "Licensed CPA" },
+                { icon: Users, title: "Expert", desc: "Certified Tax Pro" },
                 { icon: Shield, title: "Private", desc: "100% Secure" },
                 { icon: Clock, title: "Quick", desc: "30 Minutes" }
               ].map((item, idx) => (

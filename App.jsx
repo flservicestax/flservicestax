@@ -363,7 +363,7 @@ function App() {
                 <CardHeader>
                   <CardTitle className="text-2xl">Meet Our Expert Team</CardTitle>
                   <CardDescription className="text-base">
-                    Licensed CPAs & Tax Professionals
+                    Certified Tax Professionals
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
@@ -476,7 +476,7 @@ function App() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-slate-600 mb-4">
-                    Meet our licensed CPAs and tax professionals with decades of combined experience.
+                    Meet our certified tax professionals for personalized advice.
                   </p>
                   <Button
                     variant="outline"
