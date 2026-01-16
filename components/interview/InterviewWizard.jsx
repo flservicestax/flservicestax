@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { ChevronRight, ChevronLeft, Save, FileText, Loader2 } from 'lucide-react';
 import StepPersonalDetails from './StepPersonalDetails';
 import StepFilingStatus from './StepFilingStatus';
@@ -15,6 +16,7 @@ const steps = [
 ];
 
 const InterviewWizard = () => {
+    const navigate = useNavigate();
     const [currentStep, setCurrentStep] = useState(1);
     const [isSubmitting, setIsSubmitting] = useState(false);
     const [formData, setFormData] = useState({
@@ -62,7 +64,7 @@ const InterviewWizard = () => {
 
             await submitToGoogleSheets(submissionData, 'selfInterview');
             alert('Success! Your interview data has been submitted securely.');
-            // Optional: You could navigate away or reset here
+            navigate('/');
         } catch (error) {
             console.error('Submission failed:', error);
             alert('There was an error submitting your data. Please try again.');

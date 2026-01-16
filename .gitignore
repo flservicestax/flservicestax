@@ -15,3 +15,6 @@ pnpm-debug.log*
 Thumbs.db
 
 coverage/
+sms_sheets/legacy_code.gs
+sms_sheets/twilio_2FA_recovery_code.txt
+code.gs
