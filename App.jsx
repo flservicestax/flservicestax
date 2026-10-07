@@ -363,12 +363,12 @@ function App() {
                 <CardHeader>
                   <CardTitle className="text-2xl">Meet Our Expert Team</CardTitle>
                   <CardDescription className="text-base">
-                    Certified Tax Professionals
+                    Experienced Tax Preparation
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
                   <p className="text-slate-600 mb-4">
-                    Our certified tax professionals bring decades of experience in tax planning, preparation, and IRS representation.
+                    Our tax preparation team brings hands-on experience in tax planning and preparation for Florida individuals and businesses.
                   </p>
                   <Button
                     className="w-full bg-purple-600 hover:bg-purple-700 text-white"
@@ -476,7 +476,7 @@ function App() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-slate-600 mb-4">
-                    Meet our certified tax professionals for personalized advice.
+                    Meet our team for personalized tax advice.
                   </p>
                   <Button
                     variant="outline"

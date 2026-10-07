@@ -11,7 +11,7 @@ function Team() {
     {
       name: "Cristian Vergara",
       title: "Tax Pro & Founder",
-      credentials: "Tax Specialist, Authorized IRS e-file Provider",
+      credentials: "Tax Preparation Specialist",
       bio: "As the founder of Tax Pro FL in Orlando, Cristian Vergara provides expert tax solutions tailored to the Central Florida community. With a deep understanding of federal and state tax regulations, he has dedicated his career to helping individuals and small businesses navigate the complexities of the tax code. Cristian focuses on maximizing refunds and minimizing liabilities through strategic planning and meticulous preparation.",
       expertise: ["Individual Tax Returns", "Small Business Accounting", "Orlando Local Tax", "Tax Planning", "IRS Compliance", "Spanish-Speaking Services"],
       image: "/api/placeholder/150/150",
@@ -165,7 +165,7 @@ function Team() {
               </CardHeader>
               <CardContent>
                 <p className="text-slate-600">
-                  Utilizing bank-level encryption to protect your sensitive financial documents and identity.
+                  Your documents are handled with care and stored securely.
                 </p>
               </CardContent>
             </Card>

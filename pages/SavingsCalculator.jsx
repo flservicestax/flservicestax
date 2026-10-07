@@ -25,7 +25,7 @@ function SavingsCalculator() {
     const income = parseFloat(formData.income.replace(/[^0-9.]/g, '')) || 0;
     if (income === 0) return 0;
 
-    let baseSavings = income * 0.05; // Dummy logic: 5% potential missing
+    let baseSavings = income * 0.05; // Illustrative estimate: 5% of income as a rough illustration, not a prediction
     if (formData.homeOwner === 'Yes') baseSavings += 1500;
     if (parseInt(formData.dependents) > 0) baseSavings += parseInt(formData.dependents) * 2000;
 
@@ -185,8 +185,8 @@ function SavingsCalculator() {
                     <span className="text-2xl text-slate-500">*</span>
                   </div>
                   <p className="text-slate-400 text-sm italic">
-                    * This is a conservative estimate based on national averages for your profile.
-                    A professional review often uncovers significantly more.
+                    * Illustrative estimate only — not a prediction of your actual savings.
+                    A professional review determines what you truly qualify for.
                   </p>
                 </CardContent>
                 <div className="bg-slate-800/50 p-6 border-t border-white/5">

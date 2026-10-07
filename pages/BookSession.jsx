@@ -104,7 +104,7 @@ function BookSession() {
                         </div>
                         <h3 className="text-3xl font-bold mb-4">Session Requested!</h3>
                         <p className="text-muted-foreground text-lg mb-6">
-                          Check your email. We're matching you with a specialist for your selected time.
+                          Thanks — we'll confirm your session by phone or email shortly.
                         </p>
                         <Button onClick={() => navigate('/')}>Return Home</Button>
                       </div>
@@ -177,12 +177,6 @@ function BookSession() {
                   </CardContent>
                 </Card>
 
-                <div className="p-6 rounded-2xl bg-primary/5 border border-primary/10">
-                  <p className="text-sm text-muted-foreground italic">
-                    "This 30-minute call saved me over $4,200 on my last return. Don't skip it."
-                  </p>
-                  <p className="text-xs font-bold mt-2">â€” Sarah J., Orlando Small Business Owner</p>
-                </div>
               </div>
             </div>
           </div>

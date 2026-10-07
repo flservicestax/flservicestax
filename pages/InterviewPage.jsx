@@ -11,7 +11,7 @@ const InterviewPage = () => {
                     <p className="text-xl text-gray-600">
                         Answer a few simple questions to generate your tax summary.
                         <br className="hidden md:inline" />
-                        Secure, private, and runs entirely in your browser.
+                        Secure and private — your answers go directly to our team to prepare your summary.
                     </p>
                 </div>
 

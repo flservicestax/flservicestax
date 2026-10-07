@@ -60,7 +60,7 @@ const StepPersonalDetails = ({ data, onChange }) => {
                         className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all"
                         placeholder="XXX-XX-XXXX"
                     />
-                    <p className="text-xs text-gray-500 mt-1">Your SSN is used only for form generation and is not stored.</p>
+                    <p className="text-xs text-gray-500 mt-1">Your SSN is used to generate your tax summary and is stored securely with your submission so our team can follow up. We never sell or share your information.</p>
                 </div>
 
                 <div className="md:col-span-2">
